@@ -1,0 +1,6 @@
+name = Extended Editor Text Format Recipe
+description = Configuration of the text format extended for Editors
+backdrop = 1.x
+
+type = module
+package = Recipes

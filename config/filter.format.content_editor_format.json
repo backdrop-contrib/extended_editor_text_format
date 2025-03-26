@@ -1,0 +1,116 @@
+{
+    "_config_name": "filter.format.content_editor_format",
+    "format": "content_editor_format",
+    "name": "Content Editor Format",
+    "editor": "ckeditor5",
+    "editor_settings": {
+        "toolbar": [
+            "bold",
+            "italic",
+            "strikethrough",
+            "blockQuote",
+            "heading",
+            "style",
+            "|",
+            "bulletedList",
+            "numberedList",
+            "|",
+            "alignment:left",
+            "alignment:center",
+            "alignment:right",
+            "|",
+            "backdropLink",
+            "backdropImage",
+            "insertTable",
+            "|",
+            "sourceEditing",
+            "removeFormat",
+            "maximize"
+        ],
+        "image_upload": {
+            "status": 1,
+            "orientate": 0,
+            "scheme": "public",
+            "alt_required": 1,
+            "directory": "inline-images",
+            "max_size": "",
+            "max_dimensions": {
+                "width": "",
+                "height": ""
+            }
+        },
+        "file_upload": {
+            "status": 1,
+            "scheme": "public",
+            "directory": "inline-files",
+            "max_size": "",
+            "file_extensions": "txt pdf"
+        },
+        "style_list": [],
+        "heading_list": {
+            "h2": "h2",
+            "h3": "h3",
+            "h4": "h4",
+            "h5": "h5"
+        }
+    },
+    "cache": true,
+    "status": 1,
+    "filters": {
+        "filter_image_caption": {
+            "status": 1,
+            "weight": 4,
+            "settings": [],
+            "module": "filter"
+        },
+        "filter_autop": {
+            "status": 0,
+            "weight": 0,
+            "settings": [],
+            "module": "filter"
+        },
+        "filter_url": {
+            "status": 1,
+            "weight": 0,
+            "settings": {
+                "filter_url_length": "72"
+            },
+            "module": "filter"
+        },
+        "filter_htmlcorrector": {
+            "status": 1,
+            "weight": 10,
+            "settings": [],
+            "module": "filter"
+        },
+        "filter_html_escape": {
+            "status": 0,
+            "weight": -10,
+            "settings": [],
+            "module": "filter"
+        },
+        "filter_image_align": {
+            "status": 1,
+            "weight": 5,
+            "settings": [],
+            "module": "filter"
+        },
+        "filter_html": {
+            "status": 1,
+            "weight": -10,
+            "settings": {
+                "allowed_html": "<div><a> <em> <strong> <cite> <blockquote> <code> <ul> <ol> <li> <u> <p> <table> <td> <th> <tr> <thead> <tbody> <tfoot> <caption> <img> <h2><h3><h4><h5><hr><iframe><figure> <figcaption> <a> <hr><br>",
+                "filter_html_help": 1,
+                "filter_html_nofollow": 0
+            },
+            "module": "filter"
+        }
+    },
+    "roles": {
+        "editor": "editor",
+        "administrator": "administrator",
+        "anonymous": 0,
+        "authenticated": 0
+    },
+    "weight": 0
+}
